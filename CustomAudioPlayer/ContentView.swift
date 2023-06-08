@@ -14,8 +14,6 @@ import SwiftUI
  */
 struct ContentView: View {
     @StateObject var audioPlayerViewModel = CustomAudioViewModel()
-    @State private var trimURL: URL?
-    @State private var combineURL: URL?
     
     var body: some View {
         VStack {
